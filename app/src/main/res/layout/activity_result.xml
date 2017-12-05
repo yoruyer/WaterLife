@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="horizontal"
+        android:layout_weight="0.10">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/textlines"
+            android:gravity="top|center_horizontal"
+            android:padding="10dp"
+            android:text="WATERLIFE"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#01cde8"
+            tools:ignore="InefficientWeight" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="horizontal"
+        android:background="@drawable/textlines"
+        android:layout_weight="0.10">
+
+        <TextView
+            android:id="@+id/waterPotability"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.99"
+            android:gravity="top|center_horizontal"
+            android:padding="10dp"
+            android:text="WATER POTABILITY"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#01cde8"
+            tools:ignore="InefficientWeight" />
+
+        <TextView
+            android:id="@+id/waterPotabilityNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="top|center_horizontal"
+            android:padding="10dp"
+            android:text="90%"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#747777"
+            android:textSize="40sp"
+            tools:ignore="InefficientWeight" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="horizontal"
+        android:background="@drawable/textlines"
+        android:layout_weight="0.10">
+
+        <TextView
+            android:id="@+id/waterPH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="top|center_horizontal"
+            android:padding="10dp"
+            android:text="PH MEASUREMENT"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#bd4693"
+            tools:ignore="InefficientWeight" />
+
+        <TextView
+            android:id="@+id/waterPHNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="top|center_horizontal"
+            android:padding="10dp"
+            android:text="7.8"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#747777"
+            android:textSize="40sp"
+            tools:ignore="InefficientWeight" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bluebutton"
+            android:layout_marginBottom="30dp"
+            android:text="Check Again" />
+
+        <Button
+            android:id="@+id/bSearch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bluebutton"
+            android:drawableLeft="@android:drawable/ic_menu_search"
+            android:padding="16dp"
+            android:text="Back"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    </LinearLayout>
